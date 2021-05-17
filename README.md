@@ -15,8 +15,8 @@ cd LTC-SUM
 - Install [TensorFlow](https://www.tensorflow.org/) and Keras and other dependencies
   - For pip users, please type the command `pip install -r requirements.txt`.
 
-##Preparing the data
-1. Create train, and test folders
+## Preparing the data
+1. Create train and test folders
 ```bash
 cd data && mkdir train && mkdir test
 ```
@@ -28,7 +28,7 @@ wget wget https://www.crcv.ucf.edu/data/UCF101/UCF101.rar --no-check-certificate
 
 3. Download UCF train/test split and save to data folder
 
-4. Extract UCF101.rar file in data folder
+4. Extract UCF101.rar file in the data folder
 ```bash
 unrar e UCF101.rar
 ```
@@ -43,4 +43,4 @@ python 1_move_files_ucf101.py
 python 2_extract_files_ucf101.py
 ```
 
-- Note: You need ffmpeg installed in order to extract frames from videos. 
+- Note: You need FFmpeg installed to extract frames from videos. 
