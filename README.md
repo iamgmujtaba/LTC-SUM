@@ -1,4 +1,4 @@
-We are preparing our manuscript for the publication. The code will be available soon.
+We are preparing our manuscript for the publication. The entire code will be available soon.
 
 ## Prerequisite
 - Linux or macOS
