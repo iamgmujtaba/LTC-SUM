@@ -3,6 +3,7 @@ After extracting the RAR, we run this to move all the files into
 the appropriate train/test folders.
 
 Should only run this file once!
+ref: https://github.com/harvitronix/five-video-classification-methods
 """
 import os
 import os.path
