@@ -26,19 +26,17 @@ cd data && mkdir train && mkdir test
 wget wget https://www.crcv.ucf.edu/data/UCF101/UCF101.rar --no-check-certificate
 ```
 
-3. Download UCF train/test split and save to data folder
-
-4. Extract UCF101.rar file in the data folder
+3. Extract UCF101.rar file in the data folder
 ```bash
 unrar e UCF101.rar
 ```
 
-5.  run the scripts in the data folder to move the videos to the appropriate place
+4.  Run the scripts in the data folder to move the videos to the appropriate folders
 ```bash
 python 1_move_files_ucf101.py 
 ```
 
-6. extract their frames and make the CSV file the rest of the code references
+5. Run the scripts in the data folder to extract video frames in the train/test folders and make the CSV file. The CSV file will be used in the rest of the code references
 ```bash
 python 2_extract_files_ucf101.py
 ```
