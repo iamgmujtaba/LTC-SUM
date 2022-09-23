@@ -15,7 +15,7 @@ This paper proposes a novel lightweight thumbnail container-based summarization 
 git clone https://github.com/iamgmujtaba/LTC-SUM
 cd LTC-SUM
 ```
-- To create conda environment, run the following command:
+- To create conda environment and install cuda toolkit, run the following command:
 ```bash
 conda create -n ltcsum cudatoolkit=10.0 cudnn=7.6.0 python=3.6 -y
 conda activate ltcsum
