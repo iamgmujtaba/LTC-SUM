@@ -22,9 +22,9 @@ conda activate ltcsum
 ```
 - Install [TensorFlow](https://www.tensorflow.org/) and Keras and other dependencies
   - For pip users, please type the command 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ## Preparing the data
 1. Create train and test folders
