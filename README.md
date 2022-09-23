@@ -63,7 +63,7 @@ python train.py --dataset_path /path/to/UCF101 --model_name efficientNet --batch
 Check [config.py](config.py) for the list of all the parameters.
 
 - In order to evaluate the proposed method, you have to configure [hls-server](https://github.com/iamgmujtaba/hls-server).
-- Use [vid2tc](https://github.com/iamgmujtaba/vid2tc) to generate thumbnail contaienrs from videos. For more inforamtion, please refer to the [paper](https://arxiv.org/abs/2006.12597).
+- Use [vid2tc](https://github.com/iamgmujtaba/vid2tc) to generate thumbnail contaienrs from videos. For more inforamtion, please refer to the [paper]().
 - Download the pretrained model from [google drive](https://drive.google.com/file/d/1w2sgymO_AsxnaDdj6ZGzHc8TEGh2U7pC/view?usp=sharing).
 - Place the pretrained model in the [output](output) folder.
 - Run the following command to test the proposed method.
