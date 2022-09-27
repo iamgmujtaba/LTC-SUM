@@ -6,11 +6,11 @@ def parse_opts():
     
     #Paths
     parser.add_argument('--save_dir', default='./output/', type=str, help='Where to save training outputs.')
-    parser.add_argument("--movie_path", type=str, default="./TestResults/", help="Path of movie for container, thumbnails, and segments for testing")
+    parser.add_argument("--movie_path", type=str, default="./TestResults/", help="Path of video for containers, thumbnails, and segments for testing")
     parser.add_argument("--checkpoint_model", type=str, help="Optional path to checkpoint model for testing")
     
     # Dataset
-    parser.add_argument('--dataset_path', default='/data2/vca/mujtaba/2021_IEEE_TMM_GIF_Sports/data/ucf101/', type=str, help='Path to location of dataset images')
+    parser.add_argument('--dataset_path', default='./data/ucf101/', type=str, help='Path to location of dataset images')
     parser.add_argument('--dataset', default='ucf101', type=str, help='Dataset string (ucf13 | ucf101 | hmdb51)')
     parser.add_argument('--num_classes', default=101, type=int, help= 'Number of classes (ucf13: 13, ucf101: 101, hmdb51: 51)')
 
