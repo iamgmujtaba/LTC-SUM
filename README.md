@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/33286377/191896437-3d0e7b57-7546-4c89-
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{mujtaba2021,
+@article{mujtabaltcsum2022,
   title={LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN},
   author={Mujtaba, Ghulam and Malik, Adeel and Ryu, Eun-Seok},
   journal={IEEE Access},
@@ -113,7 +113,7 @@ The following paper are also related to this reserach, please cite the articles 
   publisher={IEEE}
 }
 
-@article{mujtaba2021,
+@article{mujtabamtap2021,
   title={Client-driven animated GIF generation framework using an acoustic feature},
   author={Mujtaba, Ghulam and Lee, Sangsoon and Kim, Jaehyoun and Ryu, Eun-Seok},
   journal={Multimedia Tools and Applications},
