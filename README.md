@@ -1,3 +1,5 @@
+# LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN
+
 This repository contains the original implementation of the paper __[LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN](https://ieeexplore.ieee.org/document/9902992)__, published in IEEE Access 2022.
 
 ## Abstract
