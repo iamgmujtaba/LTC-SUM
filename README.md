@@ -1,4 +1,4 @@
-This repository contains the original implementation of the paper LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN, published in IEEE Access 2022.
+This repository contains the original implementation of the paper __[LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN](https://ieeexplore.ieee.org/document/9902992)__, published in IEEE Access 2022.
 
 ## Abstract
 This paper proposes a novel lightweight thumbnail container-based summarization (LTC-SUM) framework for full feature-length videos. This framework generates a personalized keyshot summary for concurrent users by using the computational resource of the end-user device. State-of-the-art methods that acquire and process entire video data to generate video summaries are highly computationally intensive. In this regard, the proposed LTC-SUM method uses lightweight thumbnails to handle the complex process of detecting events. This significantly reduces computational complexity and improves communication and storage efficiency by resolving computational and privacy bottlenecks in resource-constrained end-user devices. These improvements were achieved by designing a lightweight 2D CNN model to extract features from thumbnails, which helped select and retrieve only a handful of specific segments. Extensive quantitative experiments on a set of full 18 feature-length videos (approximately 32.9 h in duration) showed that the proposed method is significantly computationally efficient than state-of-the-art methods on the same end-user device configurations. Joint qualitative assessments of the results of 56 participants showed that participants gave higher ratings to the summaries generated using the proposed method. To the best of our knowledge, this is the first attempt in designing a fully client-driven personalized keyshot video summarization framework using thumbnail containers for feature-length videos.
@@ -63,7 +63,7 @@ python train.py --dataset_path /path/to/UCF101 --model_name efficientNet --batch
 Check [config.py](config.py) for the list of all the parameters.
 
 - In order to evaluate the proposed method, you have to configure [hls-server](https://github.com/iamgmujtaba/hls-server).
-- Use [vid2tc](https://github.com/iamgmujtaba/vid2tc) to generate thumbnail contaienrs from videos. For more inforamtion, please refer to the [paper]().
+- Use [vid2tc](https://github.com/iamgmujtaba/vid2tc) to generate thumbnail contaienrs from videos. For more inforamtion, please refer to the __[paper](https://ieeexplore.ieee.org/document/9902992)__.
 - Download the pretrained model from [google drive](https://drive.google.com/file/d/1w2sgymO_AsxnaDdj6ZGzHc8TEGh2U7pC/view?usp=sharing).
 - Place the pretrained model in the [output](output) folder.
 - Run the following command to test the proposed method.
@@ -85,7 +85,8 @@ If you use this code for your research, please cite our paper.
   author={Mujtaba, Ghulam and Malik, Adeel and Ryu, Eun-Seok},
   journal={IEEE Access},
   year={2022},
-  publisher={IEEE}}
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2022.3209275}}
 ```
 
 The following paper are also related to this reserach, please cite the articles if you use the code.
