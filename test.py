@@ -25,7 +25,7 @@ model_path ='./output/037-0.96.hdf5'
 model = load_model(model_path, custom_objects={'SGDW': SGDW})
 
 ac01 = '' 
-wt09 = 'Vengeance.Valley.1951/'
+wt09 = '18_Vengeance_Valley_1951'
 fb01 = ''
 cr01 = ''
 
