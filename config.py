@@ -29,7 +29,7 @@ def parse_opts():
     
     #Misc
     parser.add_argument('--device', default='1',type=str, help='GPU device string number 1 |1,2')
-    parser.add_argument('--walter_ip', default='http://115.145.67.104/dataset/', type=str, help='Server IP address')
+    parser.add_argument('--walter_ip', default='http://115.145.67.104/dataset/movies/', type=str, help='Server IP address')
     parser.add_argument('--genre', default='wt',type=str, help='Movie genre fb: footbal | ac: action | wt: western | cr: cricket')
 
     return parser.parse_args()
