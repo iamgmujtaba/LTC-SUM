@@ -82,12 +82,14 @@ https://user-images.githubusercontent.com/33286377/191896437-3d0e7b57-7546-4c89-
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{mujtabaltcsum2022,
-  title={LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN},
+@ARTICLE{mujtaba2022ltc,
+  title={LTC-SUM: Lightweight Client-Driven Personalized Video Summarization Framework Using 2D CNN}, 
   author={Mujtaba, Ghulam and Malik, Adeel and Ryu, Eun-Seok},
-  journal={IEEE Access},
+  journal={IEEE Access}, 
   year={2022},
-  publisher={IEEE},
+  volume={10},
+  number={},
+  pages={103041-103055},
   doi={10.1109/ACCESS.2022.3209275}}
 ```
 
