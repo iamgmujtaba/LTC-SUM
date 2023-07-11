@@ -93,7 +93,7 @@ If you use this code for your research, please cite our paper.
   doi={10.1109/ACCESS.2022.3209275}}
 ```
 
-The following paper are also related to this reserach, please cite the articles if you use the code.
+The following papers are also related to this research, please cite the articles if you use the code.
 ```
 
 @inproceedings{mujtabasigmap2022,
